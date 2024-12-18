@@ -1,0 +1,21 @@
+# Игнорируем каталоги сборки
+build/
+**/build/
+
+# Игнорируем временные файлы
+*.o
+*.obj
+*.exe
+*.out
+*.log
+
+# Игнорируем файлы CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Игнорируем IDE-файлы (например, VSCode, CLion)
+.vscode/
+.idea/
+*.iml
