@@ -1,6 +1,4 @@
 #include "../include/solution.h"
-#include <stack>
-#include <string>
 
 bool isValid(const std::string& s) {
     std::stack<char> stack;
@@ -15,6 +13,5 @@ bool isValid(const std::string& s) {
             stack.pop();
         }
     }
-
     return stack.empty();
 }

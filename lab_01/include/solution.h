@@ -1,5 +1,4 @@
-#pragma once  // говорит компилятору что данный файл должен быть включен только один раз
-
+#pragma once
 #include <stack>
 #include <string>
 

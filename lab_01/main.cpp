@@ -1,9 +1,5 @@
 #include <iostream>
 #include "include/solution.h"
-#include <stack>
-#include <string>
-
-
 
 int main() {
     std::string input;
